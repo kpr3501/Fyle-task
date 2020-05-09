@@ -1,0 +1,281 @@
+<html>
+<body>
+     <p style="position: absolute;left: 26%;top: 10%;font-family:verdana">
+     
+    Web Development Task:
+        <br>
+
+Here's a <u style="color: blue">Marvel UI link</u> for a web page that we would like you to HTMLize and also
+        <br>
+        make it responsive. You are free to use any JS framework/library.
+    
+    <p>
+    
+    <p style="position: absolute;left: 26%;top: 20%;font-family: verdana">
+    
+    <u>Interactions</u> :
+<br>
+1) Selecting the number of Serving
+
+    
+    </p>
+    
+   
+    
+ 
+<!-- button -->
+     <button class="button button1"><b>25 Serving</b></button>
+    <button class="button button2"><b>50 Serving</b></button>
+    <button class="button button3"><b>100 Serving</b></button>
+    <button class="button button4"><b>200 Serving</b></button>
+  
+  <style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #e7e7e7; color: black;position: absolute;
+    text-align: center; left: 370px;top: 32%; border:solid 0.5px grey;
+  transition: border-width 1s linear;}
+      
+      
+.button1:hover { border-width: 1px ;border-color:  blue}
+      
+      .button2 {background-color: #e7e7e7; color: black;position: absolute;left: 532px;top: 32%;  border: solid 0.5px grey ;
+  transition: border-width 1s linear;}
+      
+      
+.button2:hover { border-width: 1px;border-color:  blue }
+      
+      .button3   {background-color: #e7e7e7;color: black;position: absolute;left: 694px;top: 32%; border:solid 0.5px grey ; 
+      transition: border-width 1s linear;}
+      
+      
+.button3:hover { border-width: 1px;border-color:  blue }
+      
+      
+        .button4   {background-color: #e7e7e7; color: black;position: absolute;left: 865px;top: 32%; border:solid 0.5px grey ;
+  transition: border-width 1s linear;}
+      
+      
+.button4:hover { border-width: 1px;border-color:  blue }
+
+</style>
+<!-- button -->
+    
+    <p style="position: absolute;left: 26%;top: 45%;font-family: verdana">
+    2) Toggling Between annual and monthly billing section
+
+    
+    </p>
+    
+    <!-- toggle -->
+    
+<div class="container">
+    <div class="toggle-btn" onclick="this.classList.toggle('active')">
+    <div class="inner-circle"></div>
+    
+    </div>    
+    </div>
+    
+    
+    
+    <style>
+    
+        .container{
+            position: absolute;
+            top: 58%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        
+        .toggle-btn{
+            
+            width: 60px;
+            height: 20px;
+            background: gray;      
+            border-radius: 30px;
+            padding: 5px;
+            transition: all 300ms ease-in-out;
+        }
+        .toggle-btn > .inner-circle{
+            width: 23px;
+            height: 21px;
+            background: #fff;
+            border-radius: 50%;
+        }
+        .toggle-btn.active{
+            
+            background: #00acee;
+        }
+        
+        .toggle-btn.active > .inner-circle{
+            margin-left: 40px;
+        }
+    
+    
+    
+    </style>
+    
+       <p style="position: absolute;left: 41%;top: 54%;font-family: verdana" >
+    <b>Annual</b>
+        <p style="position: absolute;left: 41%;top: 57%;font-family: verdana;color: gray">
+        50% off
+        </p>
+        
+    </p >
+    
+    <p style="position: absolute;left: 55%;top: 54%;font-family: verdana">
+    <b>Monthly</b>
+    </p>
+    
+
+       <!-- toggle -->
+    
+    <p style="position: absolute;left: 26%;top: 65%;font-family: verdana">
+    The above interaction should change the details in the card below. 
+        <br>
+<b>Your savings with lollipop</b> is the difference between the Icecandy and lollipop for
+        <br>a year/month.<br>
+<br>
+    
+    </p>
+    
+    
+   
+
+    
+    <!-- pay -->
+    
+     
+    <div  style="background-color: #e7e7e7; border: none;color: white;padding: 20px 60px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;
+            box-shadow: 0px 0px 2px gray;height: 15%;width: 1%;position: absolute;left: 36%;top: 77%;transition: border-width 1s linear;border: 2px solid gray;transition: border-width 1s linear">
+ 
+    <h4 style="color: black;position: absolute;left: 4%;top: -9%">
+   lollipop
+    </h4>
+        
+        <h2 style="position: absolute;left:10%;top: 28%;color: black;">100$</h2>
+    <h4 style="position: absolute;left: 10%;top: 46%;color: black">For 100 serving</h4>
+
+    
+    </div>
+    
+    
+     <div  style="background-color: #e7e7e7; border: none;color: white;padding: 20px 60px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;
+            box-shadow: 0px 0px 2px gray;height: 15%;width: 1%;position: absolute;left: 46%;top: 77%;border: 2px solid gray;transition: border-width 1s linear">
+ 
+    <h4 style="color: black;position: absolute;left: 4%;top: -9%">
+    Icecandy
+    </h4>
+        
+        <h2 style="position: absolute;left:10%;top: 28%;color: black;">100$</h2>
+    <h4 style="position: absolute;left: 10%;top: 46%;color: black">For 100 serving</h4>
+
+    
+    </div>
+    
+    
+     <div  style="background-color: #e7e7e7; border: none;color: white;padding: 20px 60px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;
+            box-shadow: 0px 0px 2px gray;height: 15%;width: 1%;position: absolute;left: 56%;top: 77%;border: 2px solid gray;transition: border-width 1s linear">
+ 
+    
+         
+          <h4 style="color: black;position: absolute;left: 4%;top: -9%">
+    Your savings
+        <br>
+        with lollipop
+    </h4>
+     
+        
+        <h2 style="position: absolute;left:10%;top: 28%;color: black;">100$</h2>
+    <h4 style="position: absolute;left: 10%;top: 46%;color: gray">Per month</h4>
+
+    </a>
+    </div>
+    <!-- pay -->
+    
+    <!-- table -->
+    
+    <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+    
+    <table style="width:50%;font-family: verdana;position: absolute;left: 26%;top: 102%;font-size: 18px">
+  
+  <tr>
+    <td>lollipop</td>
+    <td style="width: 50%">Price (per serving)</td>
+    
+  </tr>
+  <tr>
+    <td>Annually</td>
+    <td>0.5$</td>
+    
+  </tr>
+  <tr>
+    <td>Monthly</td>
+    <td>1$</td>
+    
+  </tr>
+        
+          <tr>
+    <td>Icecandy</td>
+    <td>Price (per serving)</td>
+    
+  </tr>
+        
+          <tr>
+    <td>Annually</td>
+    <td>1$</td>
+    
+  </tr>
+        
+          <tr>
+    <td>Monthly</td>
+    <td>2$</td>
+    
+  </tr>
+</table>
+    
+    
+    <!-- table -->
+    
+    
+     <p style="position: absolute;left: 25%;top: 125%;font-family: verdana"><br>
+         In Marvel, you can use the handoff feature to check the CSS of the given design. 
+         <br>
+         You can find that option on the bottom left of the screen. Also in the handoff mode 
+         <br>
+         of marvel, you can download all the assets defined on the page by just clicking on
+         <br>
+         any asset you would like to download.
+
+<br><br>Host it in Heroku - you can sign up for a free account in Heroku. E.g. <u style="color:blue">Here are steps</u><br> on how you can get a Django app running in Heroku in a few minutes.<br> 
+<br>Host the source code in a private GitHub repo.<br>
+Share with the user: rohanfyle<br><br><br>
+
+         
+    </p>
+    
+    
+    
+    
+    
+    </body>
+
+
+
+</html>
